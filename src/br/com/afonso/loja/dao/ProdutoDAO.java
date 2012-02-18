@@ -13,7 +13,7 @@ import br.com.caelum.vraptor.ioc.Component;
  * @author afonso.jota@gmail.com (Afonso J. Filgueiras)
  */
 @Component
-public class ProdutoDao implements RepositorioDeProdutos {
+public class ProdutoDAO implements RepositorioDeProdutos {
 
 	private final static List<Produto> PRODUTOS = new ArrayList<Produto>();
 
